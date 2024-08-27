@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <h1>QR CODE MAKER</h1><br>
+  <% if (locals.name && locals.url) { %>
+    
+    <h2>Your file name is: <%= name %></h2>
+    <h2>Use phone camera to scan QRcode image below: </h2>
+
+       <img src="/<%= img %>" alt="qrcode" width="600" height="600">
+       <h2><a href="<%= url %>"><%= url %></a></h2>
+   
+    <%} else {%>
+      <h2>Type in your URL: </h2>
+      <%}%>
+
+
+
+    <form action="/create" method="POST" class="buttons">
+      <label>Filename: </label>
+        <input type="text" placeholder="Type name here" name="fname"><br><br>
+        <label>"Type in your URL: "</label>
+        <input type="text" placeholder="Type link here" name="url">
+        <button type="submit" class="btn" >CREATE</button>
+      </form>
+    
+    
+      
+</body>
+</html>
+
