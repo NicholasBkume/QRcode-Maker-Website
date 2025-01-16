@@ -115,11 +115,6 @@ app.post("/create", (req, res) => {
 
 ---
 
-## Example Screenshot  
-Add a screenshot of the interface and generated QR code here.  
-
----
-
 ## Stability  
 This project is in its early stages and open to contributions.  
 
