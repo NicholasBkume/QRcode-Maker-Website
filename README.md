@@ -1,10 +1,8 @@
-Here's the GitHub documentation for your QR Code Maker project:
-
-QR Code Maker
-Description
+*QR Code Maker
+##Description
 QR Code Maker is a simple web application that allows users to generate QR codes for any URL. Users can specify a filename for their QR code image and download or scan the generated QR code directly. It’s designed with ease of use in mind and runs on a lightweight Node.js server.
 
-Why?
+##Why?
 Creating QR codes can be a hassle when you don't have a dedicated tool. This project solves that problem by providing:
 
 A user-friendly interface to create QR codes instantly.
@@ -17,7 +15,7 @@ Displays the QR code and its corresponding URL in a clean web interface.
 Serves static QR code images for download or scanning.
 Lightweight and easy to set up.
 How to Use
-1. Prerequisites
+##1. Prerequisites
 Ensure you have the following installed:
 
 Node.js (version 16 or above)
